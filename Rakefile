@@ -1,4 +1,5 @@
 # encoding: utf-8
+# Jeweler::RubygemsDotOrgTasks.new
 
 require 'rubygems'
 require 'bundler'
@@ -17,8 +18,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "gemlearn"
   gem.homepage = "http://github.com/peter/gemlearn"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "This is my first learning to gem."
+  gem.description = "I just wana to try my best and work it out."
   gem.email = "peter@51shepherd.com"
   gem.authors = [""]
   # dependencies defined in Gemfile
@@ -31,9 +32,8 @@ RSpec::Core::RakeTask.new(:spec) do |spec|
   spec.pattern = FileList['spec/**/*_spec.rb']
 end
 
-RSpec::Core::RakeTask.new(:rcov) do |spec|
+RSpec::Core::RakeTask.new(:simplecov) do |spec|
   spec.pattern = 'spec/**/*_spec.rb'
-  spec.rcov = true
 end
 
 task :default => :spec

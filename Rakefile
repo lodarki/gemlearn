@@ -16,7 +16,7 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "gemlearn"
-  gem.homepage = "http://github.com/peter/gemlearn"
+  gem.homepage = "http://github.com/lodarki/gemlearn"
   gem.license = "MIT"
   gem.summary = "This is my first learning to gem."
   gem.description = "I just wana to try my best and work it out."
